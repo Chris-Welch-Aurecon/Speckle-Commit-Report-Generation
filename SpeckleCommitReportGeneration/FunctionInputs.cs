@@ -7,6 +7,6 @@ using System.ComponentModel.DataAnnotations;
 /// are valid and match the required schema.
 struct FunctionInputs
 {
-  //[Required]
-  //public string SpeckleTypeToCount;
+  [Required]
+  public string SpeckleTypeToCount;
 }
