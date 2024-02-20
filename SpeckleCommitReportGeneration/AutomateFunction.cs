@@ -57,7 +57,7 @@ static class AutomateFunction
 			workbook.SaveAs(outputFile);
 		}
 
-		Console.WriteLine("Storing file");
+		Console.WriteLine("Storing excel file online");
 		await automationContext.StoreFileResult(outputFile);
 
 		automationContext.MarkRunSuccess($"Created report");
